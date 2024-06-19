@@ -9,12 +9,12 @@
 
 body {
     background-color: #f4f4f4;
-    color: #333;
+    color: #000;
     line-height: 1.6;
 }
 
 .navbar-custom {
-    background-color: #8BC34A; /* Warna navbar */
+    background-color: #4CB050; /* Warna navbar */
 }
 
 .navbar-custom .navbar-brand,
@@ -25,33 +25,33 @@ body {
 .jumbotron-custom {
     background: url('/Assets/Images/HeroYotsuba.jpg') no-repeat center center; /* Sesuaikan path gambar */
     background-size: cover;
-    color: white;
-    text-shadow: 2px 2px 4px #000;
+    color: #333;
     padding: 2rem 1rem; /* Ukuran header lebih kecil */
     min-height: 300px; /* Menambahkan tinggi minimum */
+    background-color: #4CB050; /* lime green */
 }
 
 .btn-primary-custom {
-    background-color: #8BC34A;
+    background-color: #4CB050;
     border: none;
 }
 
 .btn-primary-custom:hover {
-    background-color: #7cb342;
+    background-color: #4CB050;
 }
 
 .btn-secondary-custom {
-    background-color: #8BC34A;
+    background-color: #4CB050;
     border: none;
     color: white;
 }
 
 .btn-secondary-custom:hover {
-    background-color: #7cb342;
+    background-color: #3d8f40;
 }
 
 .footer-custom {
-    background-color: #8BC34A;
+    background-color: #4CB050; /* lime green */
     color: white;
     padding: 20px;
 }

@@ -1,14 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 .warna-yotsuba {
     background-color: #4CB050;
 
 }
 
-/* .jumbotron {
-    background: url('../Images/Main-Hero.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
+.font-yotsuba {
+    font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
 }
 
-.jumbotron h1, .jumbotron p {
-    color: white;
-} */
+.bg-main-hero-yotsuba {
+    background-image: url("../Images/HeroYotsuba.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-hero-yotsuba{
+    background-image: url("../Images/HeroYotsuba.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.warna-yotsuba {
+    background-color: #4CB050;
+}
+.warna-yotsuba2 {
+    background-color: #4CB050;
+}
+
+.warna-yotsuba2:hover{
+    background-color: #3d8f40;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    border-radius: 10px;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #8BC34A;
+    background-color:white;
+    border-radius: 10px;
+}

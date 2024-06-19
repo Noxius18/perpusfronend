@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-/* @import url('https://db.onlinewebfonts.com/c/2b3966678f6a1c8c8be202caeb49d95a?family=FOT-Yuruka+Std');  */
 
 
-/* .card {
+
+.card {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -13,7 +13,7 @@
     height: auto;
     object-fit: cover;
     margin-right: 200px;
-} */
+} 
 
 
 .navbar-nav .nav-link {
@@ -46,9 +46,6 @@
     align-items: center;
 } */
 
-.jumbotron {
-    padding-top: 10%;
-}
 
 .bg-main-hero-yotsuba {
     background-image: url("../Images/HeroYotsuba.jpg");

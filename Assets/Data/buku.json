@@ -5,25 +5,30 @@
         "Deskripsi": "Margarita Blankenheim di Toragay, Elphegort, mencintai suaminya Kaspar meskipun dia menikahinya untuk uang ayahnya dan melupakan janji masa kecil mereka.",
         "Sinopsis": "Di Toragay, Elphegort, Margarita Blankenheim meminta seseorang untuk mengambil hadiah tidurnya demi kebahagiaan mereka. Dia kemudian berbicara tentang bagaimana, meskipun suaminya yang suka berselingkuh, Kaspar, menikahinya sebagai bagian dari pertunangan yang diatur untuk uang ayahnya dan telah melupakan janji masa kecil mereka, dia masih mencintainya dan merasa baik-baik saja hanya dengan berada di sisinya. Mengklaim bahwa dia tidak bisa menangani melihatnya selalu begitu lelah, Margarita memutuskan untuk memberinya obat yang dia pelajari untuk dibuat dari temannya Julia Abelard sebagai hadiah, mengklaim itu akan membantunya tidur dengan nyenyak.",
         "Penulis": "Margarita Blankenheim",
-        "Gambar": "/Assets/Images/Mikulia.webp"
-
+        "Gambar": "/Assets/Images/Cover/Mikulia.webp"
     },
-
     {
         "id": 2,
         "Judul": "Deadly Sins of Evil: Judgement of Corruption",
         "Deskripsi": "Di Negara Serikat Evillious, hakim Gallerian Marlon menerima suap untuk membebaskan penjahat, mengklaim bahwa uang adalah pengacara terbaik di Neraka.",
         "Sinopsis": "Kisah ini berlangsung di Negara Serikat Evillious, di mana hakim Gallerian Marlon menjelaskan bagaimana dia menerima suap untuk membebaskan penjahat dari berbagai latar belakang, tidak peduli apa pun kejahatannya. Dia mengklaim bahwa Uang adalah pengacara terbaik di Neraka. Menurut Gallerian, uang adalah kebutuhan untuk membantu putrinya yang tidak bisa berjalan. Dengan keyakinan bahwa keinginannya untuk memulihkan putrinya akan terwujud jika dia mengumpulkan semua Bejana Dosa, hakim melanjutkan korupsinya di ruang sidang di mana orang jahat tertawa dan orang baik menangis.",
         "Penulis": "Galerian Marlon",
-        "Gambar" : "/Assets/Images/Marlon.webp"
+        "Gambar": "/Assets/Images/Cover/Marlon.webp"
     },
-
     {
         "id": 3,
         "Judul": "Black Showman dan Pembunuhan di Kota tak Bernama",
         "Deskripsi": "Black Showman dan Pembunuhan di Kota Tak Bernama merupakan novel misteri karya Keigo Higashino, penulis seri Detektif Galileo yang laris hingga mancanegara.",
         "Sinopsis": "",
         "Penulis": "Keigo Higashino",
-        "Gambar": "/Assets/Images/Black_Showman_cov.jpg"
+        "Gambar": "/Assets/Images/Cover/Black_Showman_cov.jpg"
+    },
+    {
+        "id": 4,
+        "Judul": "Deadly Sins of Evil: Fifth Pierrot",
+        "Deskripsi": "Seorang narator tak dikenal menjelaskan bagaimana Levia dan Behemo adalah dewa kembar yang, meskipun terkubur di dalam tanah di dalam bahtera, keduanya ditemukan dan menjadi disembah oleh sebuah kerajaan sebagai dewa-dewa palsu.",
+        "Sinopsis": "Di Republik Lucifenian, pada tahun EC 609, Julia Abelard memberikan pidato pemilihan sebagai presiden baru Lucifenia, disaksikan oleh putranya, Lemy Abelard. Selama pidato itu, Lemy disambut oleh Letnan Jenderal Gatt Coulomb dan keduanya berbicara sejenak sebelum melanjutkan mendengarkan pidato ibunya. Cerita kemudian kembali ke masa lalu tentang bagaimana Julia mengadopsi Lemy dari panti asuhan di Rolled, menerima hadiah darinya untuk Festival Natal sebelum kemudian diadopsi sebagai putranya. Setelah itu, cerita kembali ke percakapan Lemy dengan Gatt sebelum ia pulang menunggu ibunya. Suara misterius kemudian mengingatkannya tentang pesta inaugurasi ibunya di Istana Lucifenian, di mana temannya Rin Chan dijadwalkan untuk menyanyi.",
+        "Penulis": "Lemy Abelard",
+        "Gambar": "/Assets/Images/Cover/Fifthcover.webp"
     }
 ]
