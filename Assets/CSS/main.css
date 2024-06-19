@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+/* @import url('https://db.onlinewebfonts.com/c/2b3966678f6a1c8c8be202caeb49d95a?family=FOT-Yuruka+Std');  */
+
+
+/* .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 200px;
+} */
+
+
+.navbar-nav .nav-link {
+    color: black;
+    border-radius: 10px;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #8BC34A;
+    background-color:white;
+    border-radius: 10px;
+}
+
+/* .offcanvas-header{
+    background-color: #4CB050;
+} */
+
+/* header{
+    margin-top: 50px;
+    height: 100px;
+} */
+
+.font-yotsuba {
+    font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
+}
+
+/* .center-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.jumbotron {
+    padding-top: 10%;
+}
+
+.bg-main-hero-yotsuba {
+    background-image: url("../Images/HeroYotsuba.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-hero-yotsuba{
+    background-image: url("../Images/HeroYotsuba.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.warna-yotsuba {
+    background-color: #4CB050;
+}
+.warna-yotsuba2 {
+    background-color: #4CB050;
+}
+
+.warna-yotsuba2:hover{
+    background-color: #3d8f40;
+}
