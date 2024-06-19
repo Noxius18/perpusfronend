@@ -1,23 +1,29 @@
 [
     {
+        "id": 1,
         "Judul": "Deadly Sins of Evil: Gift from the Princess who Brought Sleep",
-        "Deskrpisi": "In Toragay, Elphegort, Margarita Blankenheim asks for someone to take her Gift to sleep for the sake of their happiness. She then speaks of how, even though her philandering husband, Kaspar, married her as part of an arranged engagement for her father's money and has forgotten their childhood promise, she still loves him and is alright with just being by his side. Claiming to be unable to handle seeing him always so weary, Margarita decides to give to him the medicine she learned to make from her friend Julia Abelard as a present, claiming it will help him sleep well.",
+        "Deskripsi": "Margarita Blankenheim di Toragay, Elphegort, mencintai suaminya Kaspar meskipun dia menikahinya untuk uang ayahnya dan melupakan janji masa kecil mereka.",
+        "Sinopsis": "Di Toragay, Elphegort, Margarita Blankenheim meminta seseorang untuk mengambil hadiah tidurnya demi kebahagiaan mereka. Dia kemudian berbicara tentang bagaimana, meskipun suaminya yang suka berselingkuh, Kaspar, menikahinya sebagai bagian dari pertunangan yang diatur untuk uang ayahnya dan telah melupakan janji masa kecil mereka, dia masih mencintainya dan merasa baik-baik saja hanya dengan berada di sisinya. Mengklaim bahwa dia tidak bisa menangani melihatnya selalu begitu lelah, Margarita memutuskan untuk memberinya obat yang dia pelajari untuk dibuat dari temannya Julia Abelard sebagai hadiah, mengklaim itu akan membantunya tidur dengan nyenyak.",
         "Penulis": "Margarita Blankenheim",
-        "Gambar": "../Images/Mikulia.webp"
+        "Gambar": "/Assets/Images/Mikulia.webp"
 
     },
 
     {
+        "id": 2,
         "Judul": "Deadly Sins of Evil: Judgement of Corruption",
-        "Deskrpisi": "The song takes place in the Union State of Evillious, where the judge Gallerian Marlon explains how he accepts bribes to pardon criminals of various backgrounds, no matter what the crime. He claims that Money is the best lawyer in Hell. According to Gallerian, money is a necessity to help his daughter who is unable to walk. With the belief that his wish to restore her would come true if he gathered all the Vessels of Sin, the judge continues his corruption in the courtroom where bad people laugh and good people cry. ",
+        "Deskripsi": "Di Negara Serikat Evillious, hakim Gallerian Marlon menerima suap untuk membebaskan penjahat, mengklaim bahwa uang adalah pengacara terbaik di Neraka.",
+        "Sinopsis": "Kisah ini berlangsung di Negara Serikat Evillious, di mana hakim Gallerian Marlon menjelaskan bagaimana dia menerima suap untuk membebaskan penjahat dari berbagai latar belakang, tidak peduli apa pun kejahatannya. Dia mengklaim bahwa Uang adalah pengacara terbaik di Neraka. Menurut Gallerian, uang adalah kebutuhan untuk membantu putrinya yang tidak bisa berjalan. Dengan keyakinan bahwa keinginannya untuk memulihkan putrinya akan terwujud jika dia mengumpulkan semua Bejana Dosa, hakim melanjutkan korupsinya di ruang sidang di mana orang jahat tertawa dan orang baik menangis.",
         "Penulis": "Galerian Marlon",
-        "Gambar" : "../Images/Marlon.webp"
+        "Gambar" : "/Assets/Images/Marlon.webp"
     },
 
     {
+        "id": 3,
         "Judul": "Black Showman dan Pembunuhan di Kota tak Bernama",
-        "Deskrpisi": "Black Showman dan Pembunuhan di Kota Tak Bernama merupakan novel misteri karya Keigo Higashino, penulis seri Detektif Galileo yang laris hingga mancanegara. Kisahnya sendiri berpusat pada misteri kematian Kamio Eiichi, seorang mantan guru SMP ditemukan tewas tercekik di halaman rumahnya.",
+        "Deskripsi": "Black Showman dan Pembunuhan di Kota Tak Bernama merupakan novel misteri karya Keigo Higashino, penulis seri Detektif Galileo yang laris hingga mancanegara.",
+        "Sinopsis": "",
         "Penulis": "Keigo Higashino",
-        "Gambar": "../Images/Black_Showman_cov.jpg"
+        "Gambar": "/Assets/Images/Black_Showman_cov.jpg"
     }
 ]

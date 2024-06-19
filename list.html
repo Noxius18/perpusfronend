@@ -40,44 +40,14 @@
     </header>
 
     <!-- Main Content -->
-    <div class="container">
+    <div id="app" class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" v-for="listBuku in buku" :key="buku.id">
                 <div class="card mb-4">
-                    <img src="Assets/Images/Mikulia.webp" class="card-img-top" alt="Mikulia Blackenheim">
+                    <img :src="listBuku.Gambar" class="card-img-top" :alt="listBuku.Judul">
                     <div class="card-body">
-                        <h5 class="card-title">Deadly Sins of Evil: Gift from the Princess who Brought Sleep</h5>
-                        <p class="card-text">In Toragay, Elphegort, Margarita Blankenheim asks for someone to take her Gift to sleep for the sake of their "happiness".</p>
-                        <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="Assets/Images/Marlon.webp" class="card-img-top" alt="Galerian Marlon">
-                    <div class="card-body">
-                        <h5 class="card-title">Deadly Sins of Evil: Judgement of Corruption</h5>
-                        <p class="card-text">Afterwards, the judge wakes up in the Hellish Yard all alone and has yet to be judged for his sins.</p>
-                        <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="Assets/Images/Black_Showman_cov.jpg" class="card-img-top" alt="Mikulia Blackenheim">
-                    <div class="card-body">
-                        <h5 class="card-title">Black Showman dan Pembunuhan di Kota tak Bernama</h5>
-                        <p class="card-text">“Black Showman dan Pembunuhan di Kota Tak Bernama” merupakan novel misteri karya Keigo Higashino.</p>
-                        <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="Assets/Images/Marlon.webp" class="card-img-top" alt="Mikulia Blackenheim">
-                    <div class="card-body">
-                        <h5 class="card-title">Deadly Sins of Evil: Gift from the Princess who Brought Sleep</h5>
-                        <p class="card-text">In Toragay, Elphegort, Margarita Blankenheim asks for someone to take her Gift to sleep for the sake of their "happiness".</p>
+                        <h5 class="card-title">{{ listBuku.Judul }}</h5>
+                        <p class="card-text">{{ listBuku.Deskripsi }}</p>
                         <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
                     </div>
                 </div>
@@ -132,5 +102,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="Assets/Script/list.js"></script>
 </body>
 </html>
