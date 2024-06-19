@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail Buku</title>
-    <link rel="stylesheet" href="../Assets/CSS/detail.css">
+    <link rel="stylesheet" href="Assets/CSS/detail.css">
+    <link rel="stylesheet" href="Assets/CSS/styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        /* Custom CSS untuk menentukan ukuran gambar */
+        .book-image {
+            max-width: 348px;
+            max-height: 504.95px;
+            width: auto;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <!-- Navbar -->
-    <header class="navbar navbar-yotsuba">
+    <header class="navbar warna-yotsuba">
         <div class="logo">
             <h1 class="font-yotsuba">Perpustakaan Online</h1>
         </div>
@@ -25,37 +35,60 @@
     </header>
 
     <!-- Book Detail Section -->
-    <section class="book-detail">
-        <div class="container">
-            <div class="book-info">
-                <img src="../Assets/Images/Cover_Buku/Mikulia.webp" alt="Book Cover">
-                <div class="book-meta">
-                    <h2 class="font-yotsuba">Judul Buku</h2>
-                    <p><strong>Penulis:</strong> Nama Penulis</p>
-                    <p><strong>Penerbit:</strong> Nama Penerbit</p>
-                    <p><strong>Tahun Terbit:</strong> 2024</p>
-                    <p><strong>ISBN:</strong> 123-456-789</p>
-                    <p><strong>Kategori:</strong> Fiksi</p>
-                    <p><strong>Bahasa:</strong> Indonesia</p>
-                    <button class="borrow-btn warna-yotsuba">Pinjam Buku</button>
+    <!-- <div id="app" class="container">
+        <div v-if="buku" class="row">
+            <div class="col-md-4 mb-4">
+                <img :src="buku.Gambar" class="card-img-top book-image" :alt="buku.Judul">
+            </div>
+            <div class="col-md-8 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ buku.Judul }}</h5>
+                        <p class="card-text"><strong>Penulis:</strong> {{ buku.Penulis }}</p>
+                        <p class="card-text">{{ buku.Deskripsi }}</p>
+                        <h6>Sinopsis</h6>
+                        <p>{{ buku.Sinopsis }}</p>
+                    </div>
                 </div>
             </div>
-            <div class="book-description">
-                <h3 class="font-yotsuba">Sinopsis</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ligula eu eros cursus venenatis. Nulla facilisi. Duis at scelerisque magna, ac bibendum mauris. Integer interdum quam in urna cursus, vel condimentum libero volutpat.</p>
-                <p>Vivamus tempor sapien sed ipsum dictum, nec fermentum est vehicula. Sed vitae orci vel metus volutpat dignissim. Curabitur vestibulum sapien non quam commodo, et luctus metus cursus. Vivamus maximus erat ut odio ullamcorper, vel sodales dui blandit.</p>
+        </div>
+        <div v-else>
+            <p>Buku tidak ditemukan.</p>
+        </div>
+    </div> -->
+
+    <div id="app" class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="book-info">
+                    <img :src="buku.Gambar" class="card-img-top book-image" :alt="buku.Judul">
+                    <div class="book-meta">
+                        <h2 class="font-yotsuba">{{ buku.Judul }}</h2>
+                        <p><strong>Penulis:</strong> {{ buku.Penulis }}</p>
+                        <p><strong>Deskripsi: </strong> {{ buku.Deskripsi }} </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="font-yotsuba">Sinopsis</h3>
+                        <p>{{ buku.Sinopsis }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Footer -->
-    <footer>
-        <p>Informasi Hak Cipta &copy; 2024 Perpustakaan Online</p>
-        <div class="footer-links">
-            <a href="#">Tautan Sosial Media</a>
-            <a href="#">Tentang Kami</a>
-            <a href="#">Hubungi Kami</a>
-        </div>
+    <footer class="fixed-bottom">
+        <p>&copy; 2024 Yotsuba Jisho</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="/Assets/Script/detail.js"></script>
 </body>
 </html>
