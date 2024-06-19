@@ -68,6 +68,13 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.book-image {
+    max-width: 348px;
+    max-height: 504.95px;
+    width: auto;
+    height: auto;
+}
+
 .book-info {
     display: flex;
     align-items: flex-start;
@@ -95,7 +102,7 @@ body {
 .borrow-btn {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #4CB050; /* lime green */
+    background-color: #4CB050; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -104,7 +111,7 @@ body {
 }
 
 .borrow-btn:hover, .warna-yotsuba:hover {
-    background-color: #3d8f40; /* dark green */
+    background-color: #3d8f40; 
 }
 
 .book-description {
@@ -120,7 +127,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Footer */
 footer {
     background-color: #4CB050;
     color: white;
@@ -140,7 +146,6 @@ footer {
     text-decoration: underline;
 }
 
-/* Yotsuba Specific Classes */
 .font-yotsuba {
     font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
 }

@@ -1,92 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail Buku</title>
-    <link rel="stylesheet" href="Assets/CSS/detail.css">
+    <!-- <link rel="stylesheet" href="Assets/CSS/detail.css"> -->
     <link rel="stylesheet" href="Assets/CSS/styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <style>
-        /* Custom CSS untuk menentukan ukuran gambar */
-        .book-image {
-            max-width: 348px;
-            max-height: 504.95px;
-            width: auto;
-            height: auto;
-        }
-    </style>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar -->
-    <header class="navbar warna-yotsuba">
-        <div class="logo">
-            <h1 class="font-yotsuba">Perpustakaan Online</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Beranda</a></li>
-                <li><a href="#">Daftar Buku</a></li>
-                <li><a href="#">Tentang</a></li>
-                <li><a href="#">Kontak</a></li>
-                <li><a href="#">Login</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light warna-yotsuba">
+        <a class="navbar-brand" href="#">Yotsuba Jisho!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="list.html">Katalog <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="input.html">Input Buku</a>
+                </li>
             </ul>
-        </nav>
-    </header>
-
-    <!-- Book Detail Section -->
-    <!-- <div id="app" class="container">
-        <div v-if="buku" class="row">
-            <div class="col-md-4 mb-4">
-                <img :src="buku.Gambar" class="card-img-top book-image" :alt="buku.Judul">
-            </div>
-            <div class="col-md-8 mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ buku.Judul }}</h5>
-                        <p class="card-text"><strong>Penulis:</strong> {{ buku.Penulis }}</p>
-                        <p class="card-text">{{ buku.Deskripsi }}</p>
-                        <h6>Sinopsis</h6>
-                        <p>{{ buku.Sinopsis }}</p>
-                    </div>
-                </div>
-            </div>
         </div>
-        <div v-else>
-            <p>Buku tidak ditemukan.</p>
-        </div>
-    </div> -->
+    </nav>
 
-    <div id="app" class="container">
+    <div id="app" class="container mt-4">
         <div class="row">
             <div class="col-md-4 mb-4">
-                <div class="book-info">
+                <div class="card">
                     <img :src="buku.Gambar" class="card-img-top book-image" :alt="buku.Judul">
-                    <div class="book-meta">
-                        <h2 class="font-yotsuba">{{ buku.Judul }}</h2>
-                        <p><strong>Penulis:</strong> {{ buku.Penulis }}</p>
-                        <p><strong>Deskripsi: </strong> {{ buku.Deskripsi }} </p>
+                    <div class="card-body">
+                        <h2 class="card-title font-yotsuba">{{ buku.Judul }}</h2>
+                        <p class="card-text"><strong>Penulis:</strong> {{ buku.Penulis }}</p>
+                        <p class="card-text"><strong>Deskripsi:</strong> {{ buku.Deskripsi }}</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-8">
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="font-yotsuba">Sinopsis</h3>
-                        <p>{{ buku.Sinopsis }}</p>
+                        <h3 class="card-title font-yotsuba">Sinopsis</h3>
+                        <p class="card-text">{{ buku.Sinopsis }}</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
-    <!-- Footer -->
-    <footer class="fixed-bottom">
-        <p>&copy; 2024 Yotsuba Jisho</p>
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="text-center p-3 warna-yotsuba">
+            &copy; 2024 Yotsuba Jisho
+        </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <script src="/Assets/Script/detail.js"></script>

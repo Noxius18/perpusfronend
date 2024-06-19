@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katalog Buku - Perpustakaan Sederhana</title>
-    <!-- Bootstrap CSS -->
+    <title>Katalog Buku</title>
     <link rel="stylesheet" href="/Assets/CSS/styles.css">
     <!-- <link rel="stylesheet" href="/Assets/CSS/main.css"> -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -17,29 +16,26 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Katalog <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="list.html">Katalog <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang Kami</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="input.html">Input Buku</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <!-- Header -->
+
     <header class="jumbotron text-left bg-main-hero-yotsuba">
         <h1 class="display-2">Katalog Buku</h1>
         <p class="lead">Jelajahi koleksi buku kami.</p>
     </header>
 
-    <!-- Main Content -->
+
     <div id="app" class="container">
         <div class="row">
             <div class="col-md-4" v-for="listBuku in buku" :key="buku.id">
@@ -55,14 +51,14 @@
         </div>
     </div>
 
-    <!-- Footer -->
+
     <footer class="bg-light text-center text-lg-start">
         <div class="text-center p-3 warna-yotsuba">
             © 2024 Perpustakaan Sederhana
         </div>
     </footer>
 
-    <!-- Bootstrap JS and dependencies -->
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

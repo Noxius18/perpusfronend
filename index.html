@@ -1,45 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perpustakaan Sederhana</title>
+    <title>Yotsuba Jisho</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/Assets/CSS/index.css"> <!-- Sesuaikan path dengan lokasi file CSS Anda -->
+    <link rel="stylesheet" href="/Assets/CSS/index.css">
+    <link rel="stylesheet" href="/Assets/CSS/styles.css">
 </head>
-<body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-        <a class="navbar-brand" href="#">Perpustakaan Sederhana</a>
+<body class="font-yotsuba">
+    <nav class="navbar navbar-expand-lg navbar-light warna-yotsuba">
+        <a class="navbar-brand" href="#">Yotsuba Jisho!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Katalog</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="list.html">Katalog <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="input.html">Input Buku</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <!-- Header -->
     <header class="jumbotron text-center jumbotron-custom">
-        <h1 class="display-4">SELAMAT DATANG DI PERPUSTAKAAN YOTSUBA</h1>
-        <p class="lead">Temukan buku favorit Anda dan pelajari hal baru setiap hari.</p>
-        <a class="btn btn-primary btn-lg btn-primary-custom" href="#" role="button">Mulai Sekarang</a>
+        <h1 class="display-3 pt-lg-5"><strong style="background-color: white;">SELAMAT DATANG DI PERPUSTAKAAN YOTSUBA</strong></h1>
+        <p class="lead"><strong style="background-color: white;">Temukan buku favorit Anda dan pelajari hal baru setiap hari.</strong></p>
     </header>
 
-    <!-- Main Content -->
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6 text-center mb-4">
                 <h2>Katalog Buku</h2>
                 <p>Jelajahi ribuan buku dari berbagai genre dan penulis.</p>
-                <a class="btn btn-secondary btn-secondary-custom" href="#" role="button">Lihat Katalog</a>
+                <a class="btn btn-secondary btn-secondary-custom" href="list.html" role="button">Lihat Katalog</a>
             </div>
         </div>
     </div>
