@@ -47,6 +47,11 @@
                 <div class="invalid-feedback">Penulis masih kosong.</div>
             </div>
             <div class="form-group">
+                <label for="penulis">Genre</label>
+                <input type="text" class="form-control" id="genre" name="genre" placeholder="Genre" required>
+                <div class="invalid-feedback">Genre masih kosong.</div>
+            </div> 
+            <div class="form-group">
                 <label for="deskripsi">Deskripsi</label>
                 <textarea class="form-control" id="deskripsi" name="deskripsi" placeholder="Deskripsi" rows="4" required></textarea>
                 <div class="invalid-feedback">Deskripsi masih kosong.</div>
@@ -57,9 +62,19 @@
                 <div class="invalid-feedback">Sinopsis masih kosong.</div>
             </div>
             <div class="form-group">
+                <label for="penulis">Tahun</label>
+                <input type="text" class="form-control" id="tahun" name="tahun" placeholder="Tahun" required>
+                <div class="invalid-feedback">Tahun masih kosong.</div>
+            </div>    
+            <div class="form-group">
+                <label for="penulis">Penerbit</label>
+                <input type="text" class="form-control" id="penerbit" name="penerbit" placeholder="Penerbit" required>
+                <div class="invalid-feedback">Penerbit masih kosong.</div>
+            </div>   
+            <div class="form-group">
                 <label for="cover">Cover Buku</label>
                 <input type="file" class="form-control-file" id="cover" name="cover" accept="image/*" required>
-                <div class="invalid-feedback">Silakan pilih file gambar.</div>
+                <div class="invalid-feedback">Silahkan pilih file gambar.</div>
             </div>
             <button type="submit" name="tambah" class="btn btn-primary btn-lg btn-block">Tambah Buku</button>
         </form>

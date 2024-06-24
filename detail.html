@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail Buku</title>
-    <!-- <link rel="stylesheet" href="Assets/CSS/detail.css"> -->
+    <link rel="stylesheet" href="Assets/CSS/detail.css">
     <link rel="stylesheet" href="Assets/CSS/styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -36,15 +36,18 @@
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <img :src="buku.Gambar" class="card-img-top book-image" :alt="buku.Judul">
-                    <div class="card-body">
-                        <h2 class="card-title font-yotsuba">{{ buku.Judul }}</h2>
-                        <p class="card-text"><strong>Penulis:</strong> {{ buku.Penulis }}</p>
-                        <p class="card-text"><strong>Deskripsi:</strong> {{ buku.Deskripsi }}</p>
-                    </div>
                 </div>
             </div>
             <div class="col-md-8">
                 <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title font-yotsuba">{{ buku.Judul }}</h2>
+                        <p class="card-text"><strong>Penulis:</strong> {{ buku.Penulis }}</p>
+                        <p class="card-text"><strong>Genre:</strong> {{ buku.Genre }}</p>
+                        <p class="card-text"><strong>Deskripsi:</strong> {{ buku.Deskripsi }}</p>
+                        <p class="card-text"><strong>Tahun Terbit:</strong> {{ buku.Tahun }}</p>
+                        <p class="card-text"><strong>Penerbit: </strong> {{ buku.Penerbit }}</p>
+                    </div>
                     <div class="card-body">
                         <h3 class="card-title font-yotsuba">Sinopsis</h3>
                         <p class="card-text">{{ buku.Sinopsis }}</p>

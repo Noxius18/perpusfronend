@@ -4,6 +4,9 @@ if(isset($_POST['tambah'])){
     $penulis = $_POST['penulis'];
     $deskripsi = $_POST['deskripsi'];
     $sinopsis = $_POST['sinopsis'];
+    $tahun = $_POST['tahun'];
+    $penerbit = $_POST['penerbit'];
+    $genre = $_POST['genre'];
 
     $target_dir = "../Assets/Images/Cover/";
     $target_file = basename($_FILES['cover']['name']);
@@ -24,6 +27,9 @@ if(isset($_POST['tambah'])){
                 'Deskripsi' => $deskripsi,
                 'Sinopsis' => $sinopsis,
                 'Penulis' => $penulis,
+                'Tahun' => $tahun,
+                'Genre' => $genre,
+                'Penerbit' => $penerbit,
                 "Gambar" => '/Assets/Images/Cover/'.$target_file
             ];
 
